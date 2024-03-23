@@ -1,0 +1,17 @@
+{
+  "extends": ["@velesstan/tsconfig/base"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2021",
+    "baseUrl": "./",
+    "outDir": "build",
+    "paths": {
+      "@worklog/shared": ["../../node_modules/@worklog/shared/src"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
