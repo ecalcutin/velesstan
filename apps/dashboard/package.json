@@ -1,8 +1,9 @@
 {
   "name": "@velesstan/dashboard",
-  "main": ".eslintrc.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "prettier": "prettier ./src --write"
   },
   "devDependencies": {
     "@types/react-dom": "^18.2.22",
