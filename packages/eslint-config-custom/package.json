@@ -1,0 +1,14 @@
+{
+  "name": "@velesstan/eslint-config-custom",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Evgheni Kalkutin <evgheni.calcutin@gmail.com> (https://kalkutin.dev)",
+  "main": "common.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3"
+  }
+}

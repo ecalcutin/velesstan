@@ -1,0 +1,11 @@
+{
+  "extends": ["@velesstan/tsconfig/base"],
+  "compilerOptions": {
+    "sourceRoot": "/",
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "outDir": "build"
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

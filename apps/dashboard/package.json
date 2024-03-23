@@ -1,0 +1,12 @@
+{
+  "name": "@velesstan/dashboard",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@velesstan/eslint-config-custom": "^1.0.0",
+    "@velesstan/prettier-config-custom": "^1.0.0",
+    "@velesstan/tsconfig": "^1.0.0"
+  }
+}
